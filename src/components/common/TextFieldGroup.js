@@ -26,6 +26,7 @@ class TextFieldGroup extends Component {
         {this.props.error && (
           <div className="invalid-feedback">{this.props.error}</div>
         )}
+        
       </div>
     );
   }

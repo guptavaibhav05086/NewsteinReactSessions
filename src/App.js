@@ -6,8 +6,8 @@ import CreateProfile from "../src/components/create-profile/CreateProfile";
 function App() {
   return (
     <div className="App">
-      <CreateProfile></CreateProfile>
-      {/* <Login></Login> */}
+      {/* <CreateProfile></CreateProfile> */}
+      <Login></Login>
     </div>
   );
 }

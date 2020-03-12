@@ -11,21 +11,22 @@ class SelectListGroup extends Component {
     return (
       <div className="form-group">
         <select
-          className={classnames("form-control form-control-lg", {
-            "is-invalid": this.props.error
-          })}
+          // className={classnames("form-control form-control-lg", {
+          //   "is-invalid": this.props.error
+          // })}
+          className="form-control form-control-lg"
           name={this.props.name}
           value={this.props.value}
           onChange={this.props.onChange}
         >
           {selectOptions}
         </select>
-        {this.props.info && (
+        {/* {this.props.info && (
           <small className="form-text text-muted">{this.props.info}</small>
         )}
         {this.props.error && (
           <div className="invalid-feedback">{this.props.error}</div>
-        )}
+        )} */}
       </div>
     );
   }
